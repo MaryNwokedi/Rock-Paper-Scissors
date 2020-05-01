@@ -1,0 +1,55 @@
+.game-container {
+  margin: 8rem 20rem;
+  padding: 3rem;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.08);
+  background-color: lightgray;
+}
+
+.title {
+  text-align: center;
+  color: rgb(141, 74, 127)
+}
+
+.game-wrapper {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.button {
+  padding: 2rem;
+  color: blue;
+  font-size: 1.5rem;
+  transition: ease 0.5s;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.result {
+  color: #fff;
+  font-weight: 700;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-size: 2rem;
+}
+
+.result-details {
+  font-size: 2rem;
+}
+
+
+.result-wrapper {
+  text-align: center;
+  padding: 2rem;
+}
+
+.total-information {
+  text-align: center;
+  padding: 2rem;
+}
+
+.reset {
+  margin-left: 230px;
+}
