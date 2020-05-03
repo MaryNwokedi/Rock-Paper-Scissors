@@ -12,23 +12,23 @@
   <div class="game-container">
     <h1 class="title">JUST PRESS A BUTTON TO PLAY</h1>
     <div class="game-wrapper">
-      <button class="button rock">Rock</button>
-      <button class="button paper">Paper</button>
-      <button class="button scissors">Scissors</button>
+      <button class="button rock"><i id="rock" class="far fa-hand-rock"></i></button>
+      <button class="button paper"><i id="paper" class="far fa-hand-paper"></i></button>
+      <button class="button scissors"><i id="scissors" class="far fa-hand-scissors"></i></button>
     </div>
     <div class='result-wrapper'>
       <h2 class="result"></h2>
       <p class="result-details"></p>
     </div>
     <hr>
-    <div class="total-information">
-      <p class="victories"></p>
-      <p class="draws"></p>
-      <p class="defeats"></p>
+    <div class="score-board">
+      <span class="user">Your</span>
+      <span id="score"></span>
     </div>
     <button class=" button reset">Reset</button>
     <script src=" script.js"></script>
   </div>
+  <script src="https://kit.fontawesome.com/294a57fe41.js"></script>
 </body>
 
 </html>
